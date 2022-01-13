@@ -20,6 +20,7 @@ public class Config {
     public static String getBaseURL(){
         return config.getProperty("baseURL");
     }
+
     public static String getApiKey(){
         return config.getProperty("apiKey");
     }
